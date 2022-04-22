@@ -1,0 +1,43 @@
+/* signup page css */
+#signup-form-div>form{
+    width:30%;
+    margin:auto;
+    padding:20px;
+    margin-top:30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display:flex;
+    flex-direction:column;
+}
+#signup-form-div>form>input{
+    padding:10px;
+    margin:5px;
+}
+ /* navbar css */
+#navbar{
+    width:96%;
+    margin:auto;
+    border:2px solid black;
+    display:flex;
+    justify-content: right;
+}
+body{
+    width:70%;
+    margin:auto;
+    border:2px solid rgb(115, 197, 230);
+    margin-top:50px;
+    padding:20px;
+    
+}
+#navbar>div{
+    width:30%;
+    display:flex;
+    padding:10px;
+    justify-content:space-around;
+}
+#navbar>div>button{
+    font-weight:bold;
+    background-color:white;
+    border:0px;
+    font-family: arial;
+    font-size: 16px;
+}
